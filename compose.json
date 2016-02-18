@@ -1,0 +1,22 @@
+{
+    "name": "haolyy/api",
+    "type": "library",
+    "description": "Logging for PHP 5.3",
+    "keywords": ["log","logging"],
+    "homepage": "https://github.com/szp043725449/haolyy_Tool_API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sunzhiping",
+            "email": "szp043725449@126.com",
+            "homepage": "http://seld.be",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        
+    }
+}
