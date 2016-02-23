@@ -1,4 +1,4 @@
-# Laravel Doctrine ORM
+# Laravel HaolyyService
 
 ## Documentation
 
@@ -7,7 +7,7 @@
 Require this package  
 
 ```php
-composer require "laravel-doctrine/orm:1.1.*"
+php composer.phar require "haolyy/api:dev-master" -vvv
 ```
 
 After adding the package, add the ServiceProvider to the providers array in `config/app.php`
@@ -16,7 +16,7 @@ After adding the package, add the ServiceProvider to the providers array in `con
 Haolyy\Api\HaolyyServiceProvider::class,,
 ```
 
-Optionally you can register the EntityManager facade:
+Optionally you can register the HaolyyService facade:
 
 ```php
 'haolyyServer'      => Haolyy\Api\Facades\HaolyyService::class,
