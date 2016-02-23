@@ -1,16 +1,17 @@
-<?php namespace Ixudra\Curl\Facades;
+<?php 
 
+namespace Haolyy\Api\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class Curl extends Facade {
+class HaolyyService extends Facade {
 
     /**
      * @return string
      */
     protected static function getFacadeAccessor()
     {
-        return 'Curl';
+        return 'HaolyyService';
     }
 
 }
