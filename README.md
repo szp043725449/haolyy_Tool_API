@@ -36,3 +36,10 @@ sign Middleware:
  */
 ```
 
+Add relevant message in:
+
+```php
+/**
+ * resources\lang\zh_cn\validation.php
+ */
+```
